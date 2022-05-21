@@ -40,7 +40,8 @@ body {
     border-radius: 50%;
 }
 .profile-card-info{
-   color: #ffffff;
+    text-align: center;
+    color: #ffffff;
     text-shadow: 0 0 4px #f0f;
 }
 .profile-card-info>*{
