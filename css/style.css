@@ -44,6 +44,8 @@ body {
     text-shadow: 0 0 4px #f0f;
 }
 .profile-card-info>*{
+    margin-bottom: 15px;
+    font-weight: 700;
     color: #ffffff;
     text-shadow: 0 0 4px #f0f;
 }
