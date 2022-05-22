@@ -42,12 +42,14 @@ body {
     object-fit: cover;
     border-radius: 50%;
 }
+.profile-card-info {
+    text-align: center;
+}
 .profile-card-info .position h2 {
     color: #444444;
     text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
 }
 .profile-card-info .position p {
-    background: #CCCCCC;
     text-shadow: 0 1px 0 #FFFFFF;
 }
 .profile-card-info>*{
