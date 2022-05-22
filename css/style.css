@@ -34,7 +34,6 @@ body {
     overflow: hidden;
     position: relative;
     z-index: 4;
-    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
     box-shadow: 0px 5px 50px 0px #ff0000, 0px 0px 0px 7px #ff00001a;
 }
 .profile-card-img img{
