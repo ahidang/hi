@@ -34,7 +34,7 @@ body {
     overflow: hidden;
     position: relative;
     z-index: 4;
-    box-shadow: 0px 5px 50px 0px linear-gradient(112deg, rgba(2,0,36,1) 0%, rgba(51,114,190,1) 0%, rgba(94,8,112,1) 0%, rgba(90,7,101,1) 12%, rgba(105,9,121,1) 38%, rgba(90,38,140,1) 47%, rgba(75,68,160,1) 56%, rgba(65,88,173,1) 62%, rgba(0,212,255,1) 100%);
+    box-shadow: 0px 5px 50px 0px #ff0000, 0px 0px 0px 7px #ff00001a;
 }
 .profile-card-img img{
     width: 100%;
