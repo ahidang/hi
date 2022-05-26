@@ -5,24 +5,40 @@
 }
 body {
     color: #324e63;
-  }
+    background: url("https://i.pinimg.com/originals/09/ed/f5/09edf51d237c39952a1b959e884e6dbb.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
 .wrapper{
     width: 100%;
     min-height: 100vh;
     display: flex;
-    background: url("https://i.pinimg.com/originals/09/ed/f5/09edf51d237c39952a1b959e884e6dbb.gif");
-    background-size: cover;
 }
 .profile-card{
     width: 500px;
     height: 500px;
-    background: url("https://i.pinimg.com/564x/7b/2a/eb/7b2aeb0a92d599322541b39ec6e087a0.jpg");
     background-size: contain;
     background-size: 100% 100%;
     object-fit: cover;
     margin: auto;
     box-shadow: 0px 8px 60px -10px rgb(153 153 153 / 69%);
     border-radius: 50%;
+}
+.profile-card .hi img{
+    width: 500px;
+    height: 500px;
+    background: url(https://i.pinimg.com/564x/7b/2a/eb/7b2aeb0….jpg);
+    background-size: contain;
+    background-size: 100% 100%;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 50%;
+    animation: xoayvong 9s cubic-bezier(0, 0, 0, 0) 0s infinite;
+}
+.profile-card .hihi {
+    transform: translateY(-115%);
 }
 .profile-card-img{
     width: 150px;
