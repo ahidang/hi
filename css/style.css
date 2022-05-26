@@ -15,6 +15,7 @@ body {
     width: 100%;
     min-height: 100vh;
     display: flex;
+    position: absolute;
 }
 .profile-card{
     width: 500px;
