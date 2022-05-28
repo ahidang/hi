@@ -12,13 +12,12 @@ body {
     background-position: center;
 }
 .wrapper{
-    width: 100%;
     min-height: 100vh;
     display: flex;
 }
 .profile-card{
-    width: 500px;
-    height: 500px;
+    max-width: 500px;
+    max-height: 500px;
     background-size: contain;
     background-size: 100% 100%;
     object-fit: cover;
@@ -27,8 +26,8 @@ body {
     border-radius: 50%;
 }
 .profile-card .hi {
-    width: 500px;
-    height: 500px;
+    max-width: 500px;
+    max-height: 500px;
     background-size: contain;
     background-size: 100% 100%;
     object-fit: cover;
@@ -37,8 +36,8 @@ body {
     overflow: hidden;
 }
 .profile-card .hi img {
-    width: 500px;
-    height: 500px;
+    max-width: 500px;
+    max-height: 500px;
     animation: xoayvong 9s cubic-bezier(0, 0, 0, 0) 0s infinite;
 }
 .profile-card .hihi {
