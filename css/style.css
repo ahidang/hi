@@ -11,10 +11,11 @@ body {
     background-attachment: fixed;
     background-position: center;
     min-height: 100vh;
-    display: grid;
-    justify-content: center;
-    align-content: center;
-}
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
 .profile-card{
     max-width: 500px;
     max-height: 500px;
