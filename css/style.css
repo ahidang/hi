@@ -26,6 +26,10 @@ body {
     margin: auto;
     box-shadow: 0px 8px 60px -10px rgb(153 153 153 / 69%);
     border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
 }
 .profile-card .hi {
     max-width: 500px;
