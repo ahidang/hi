@@ -30,17 +30,9 @@ body {
 .profile-card .hi {
     max-width: 500px;
     max-height: 500px;
-    background-size: contain;
-    background-size: 100% 100%;
-    object-fit: cover;
-    margin: auto;
-    border-radius: 50%;
-    overflow: hidden;
-}
-.profile-card .hi img {
-    max-width: 500px;
-    max-height: 500px;
     animation: xoayvong 9s cubic-bezier(0, 0, 0, 0) 0s infinite;
+    border-radius: 50%;
+    object-fit: cover;
 }
 .profile-card .hihi {
     transform: translateY(-110%);
